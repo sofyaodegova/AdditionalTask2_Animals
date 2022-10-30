@@ -3,6 +3,7 @@ public class Cat extends Animal {
         Cat cat = new Cat();
         cat.move();
     }
+
     @Override
     public void move() {
         System.out.println("Я побежал");
